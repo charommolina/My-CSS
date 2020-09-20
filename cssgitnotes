@@ -1,0 +1,15 @@
+when my repository is brand new:
+git init  -- to initialice my repository in my folder
+git add .
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/charommolina/My-CSS.git
+git push -u origin master
+
+
+when i want to update my repository:
+git status -- it checks to see what new files or new changes are in your project
+git add . -- adds all the files in red
+git status
+git commit -m "comment" -- this prepares to send the files over to your git repository with a message
+git push - sends your new updates to the repository
